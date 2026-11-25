@@ -1,6 +1,10 @@
 import os
 
-TEXT = "Breathing worked fine on its own for years. Then I noticed it, and now it is my job."
+_PARTS = (
+    "Breathing worked fine on its own for years.",
+    "Then I noticed it, and now it is my job.",
+)
+TEXT = " ".join(_PARTS)
 
 
 def main():
